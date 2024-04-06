@@ -7,6 +7,7 @@ import NombrePerifl from '../Components/NombrePerifl';
 import Link from 'next/link';
 import GitComponent from '../Components/GitComponent';
 import Curriculum from '../Components/Curriculum';
+import Redes from '../Components/redes';
 
 
 const page = () => {
@@ -26,10 +27,10 @@ const page = () => {
 
             <Curriculum />
 
-           
 
-            <article className='border-2 border-black rounded-lg 
-                                col-span-12  h-[145px]
+
+            <article className='group relative cursor-pointer flex justify-center items-centerrelative p-2 border-2 border-[#30363D] rounded-lg  bg-[#0D1117]
+                                col-span-12 h-[145px] hover:border-lime-500 transition-all duration-200
                                 sm:h-auto sm:col-span-6 sm:row-span-3
                                 md:col-span-8 md:row-span-3
                                 lg:col-span-8 lg:row-span-3
@@ -60,16 +61,8 @@ const page = () => {
                                '>
                 6
             </article>
-            <article className='border-2 border-black rounded-lg 
-                                col-span-12  h-[145px]
-                                sm:h-auto sm:col-span-4 sm:row-span-2
-                                md:col-span-4 md:row-span-2
-                                lg:col-span-4
-                                xl:col-span-2 xl:row-span-3     
-                                2xl:row-span-3                 
-                               '>
-                7
-            </article>
+
+            <Redes />
 
             <article className='border-2 border-black rounded-lg 
                                 col-span-12  h-[145px]
@@ -115,15 +108,31 @@ const page = () => {
                 11
             </article>
 
-            <article className='border-2 border-black rounded-lg 
-                                col-span-12  h-[145px]
+            <article className='group cursor-pointer  flex flex-col items-center relative p-2 border-2 border-[#30363D] rounded-lg  bg-[#0D1117]
+                                col-span-12 h-[145px] hover:border-lime-500 transition-all duration-200                                
                                 sm:h-auto sm:col-span-4 sm:row-span-2
                                 md:row-span-3 md:col-span-8
                                 lg:row-span-4 lg:col-span-9
                                 xl:row-span-3 xl:col-span-6
                                 2xl:col-span-6  2xl:row-span-3     
                                '>
-                12
+                <h4 className='text-lg'> Contacto </h4>
+
+                <div className='flex flex-row'>
+                <div className='flex justify-center flex-col w-[50%] ml-2'>                  
+                    <h6 className='text-sm font-thin'>  Deja tu Proyecto o propuesta </h6>
+                </div>
+
+                <div className='flex flex-col justify-center items-center w-[50%]'>
+                    <Link href={""} className='border boder-white bg-[#0D1117] px-3 py-1 rounded-lg text-center text-sm '>
+                        formulario <br />
+                        de Contacto
+                    </Link>
+                </div>
+                </div>
+
+                
+
             </article>
 
 
