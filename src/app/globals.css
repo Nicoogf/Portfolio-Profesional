@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.fondo{
+    background: rgb(25,30,50);
+background: -moz-linear-gradient(216deg, rgba(25,30,50,1) 0%, rgba(35,41,68,1) 100%);
+background: -webkit-linear-gradient(216deg, rgba(25,30,50,1) 0%, rgba(35,41,68,1) 100%);
+background: linear-gradient(216deg, rgba(25,30,50,1) 0%, rgba(35,41,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191e32",endColorstr="#232944",GradientType=1);
+}
