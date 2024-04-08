@@ -9,3 +9,19 @@ background: -webkit-linear-gradient(216deg, rgba(25,30,50,1) 0%, rgba(35,41,68,1
 background: linear-gradient(216deg, rgba(25,30,50,1) 0%, rgba(35,41,68,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191e32",endColorstr="#232944",GradientType=1);
 }
+
+.fondo-wid{
+    background: rgb(0,50,249);
+    background: -moz-linear-gradient(216deg, rgba(0,50,249,0) 0%, rgba(49,57,96,1) 100%);
+    background: -webkit-linear-gradient(216deg, rgba(0,50,249,0) 0%, rgba(49,57,96,1) 100%);
+    background: linear-gradient(216deg, rgba(0,50,249,0) 0%, rgba(49,57,96,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0032f9",endColorstr="#313960",GradientType=1);
+}
+
+.fondo-tec{
+    background: rgb(0,50,249);
+background: -moz-linear-gradient(180deg, rgba(0,50,249,0) 35%, rgba(21,146,149,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(0,50,249,0) 35%, rgba(21,146,149,1) 100%);
+background: linear-gradient(180deg, rgba(0,50,249,0) 35%, rgba(21,146,149,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0032f9",endColorstr="#159295",GradientType=1);
+}

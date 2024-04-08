@@ -20,7 +20,7 @@ const CurriculumComponent = () => {
                    md:text-center md:text-xs
                    lg:text-sm 
                    xl:text-base"> 
-                   Descarga el curriculum actualizado 
+                   Curriculum actualizado 
                    <span className="hidden"> en formato PFD </span>
     </h3>
 

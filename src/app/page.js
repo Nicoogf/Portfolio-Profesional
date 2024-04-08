@@ -10,6 +10,7 @@ import ContactComponent from "./Components/ContactComponent";
 import ProyectComponent from "./Components/ProyectComponent";
 import StackComponent from "./Components/StackComponent";
 import EstComponent from "./Components/EstComponent";
+import DigitalMoneyComponent from "./Components/DigitalMoneyComponent";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-gray-500 grid gap-4 rounded-lg
+      <section className="fondo grid gap-4 rounded-lg
       h-[500px] grid-cols-12 grid-rows-12 col-span-12 row-span-6
       md:h-[600px] 
       lg:h-[700px] 
@@ -49,6 +50,8 @@ export default function Home() {
         <StackComponent /> 
 
         <EstComponent />
+
+        <DigitalMoneyComponent />
 
         
       </section>
