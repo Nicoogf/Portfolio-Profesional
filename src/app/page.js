@@ -20,7 +20,7 @@ export default function Home() {
 
       <section className="grid gap-4 rounded-lg
       h-[500px] grid-cols-12 grid-rows-12 col-span-12 row-span-6
-      md:h-[390px]    
+      md:h-[30vh]    
       xl:md:h-[350px] 
       ">
  
@@ -38,8 +38,7 @@ export default function Home() {
 
       <section className="fondo grid gap-4 rounded-lg
       h-[500px] grid-cols-12 grid-rows-12 col-span-12 row-span-6
-      md:h-[600px] 
-      lg:h-[700px] 
+      md:h-[65vh]  
       xl:md:h-[500px]
       2xl:h-[55vh]">
 
