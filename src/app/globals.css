@@ -26,3 +26,12 @@ background: linear-gradient(180deg, rgba(0,50,249,0) 35%, rgba(21,146,149,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0032f9",endColorstr="#159295",GradientType=1);
 }
 
+
+
+.fondo-componente{
+    background: rgb(49,57,96);
+    background: -moz-linear-gradient(180deg, rgba(49,57,96,1) 51%, rgba(30,36,64,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(49,57,96,1) 51%, rgba(30,36,64,1) 100%);
+    background: linear-gradient(180deg, rgba(49,57,96,1) 51%, rgba(30,36,64,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#313960",endColorstr="#1e2440",GradientType=1);
+}

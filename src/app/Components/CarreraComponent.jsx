@@ -3,7 +3,7 @@ import { IoIosArrowDropright } from "react-icons/io";
 
 const CarreraComponent = () => {
   return (
-    <article className=" relative overflow-hidden group flex flex-row justify-center items-center gap-y-2 p-3 bg-[#313960] rounded-xl shadow-xl
+    <article className=" relative overflow-hidden group flex flex-row justify-center items-center gap-y-2 p-3 fondo-componente  rounded-xl shadow-xl
     col-span-12 row-span-3
     sm:row-span-4
     md:col-span-6 md:row-span-4

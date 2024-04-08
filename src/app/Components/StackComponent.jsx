@@ -14,7 +14,7 @@ import { FaWordpress } from "react-icons/fa";
 
 const StackComponent = () => {
   return (
-    <article className="bg-[#313960] rounded-xl p-3 flex flex-row overflow-hidden
+    <article className="fondo-componente  rounded-xl p-3 flex flex-row overflow-hidden
     col-span-12 row-span-3
     md:col-span-4
     xl:col-span-3 xl:row-span-6 relative ">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CurriculumComponent = () => {
   return (
-    <article className="p-3 bg-[#313960] rounded-xl shadow-xl
+    <article className="p-3 fondo-componente  rounded-xl shadow-xl
     col-span-6 row-span-3  flex flex-col justify-center items-center
     sm:row-span-3
     md:col-span-3 md:row-span-4
